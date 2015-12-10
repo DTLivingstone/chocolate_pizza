@@ -1,5 +1,6 @@
 body {
   margin: 5% 12%;
+  max-width: 901px;
 }
 
 #logo {
@@ -11,7 +12,49 @@ body {
   float: right;
 }
 
-header{
+header {
   display: flex;
   /*border-bottom: 5px solid black;*/
+}
+
+article p{
+  text-indent: 20px;
+}
+
+#ingredients {
+  background-image: url("images/list-bg.png");
+  height: 160px;
+  padding: 40px;
+}
+
+#left {
+  float: left;
+}
+
+#right {
+  float: right;
+}
+
+li {
+  font-family: "Comic Sans", "Comic Sans MS";
+  list-style-image: url("images/checkbox-square-unchecked-128.png");
+}
+
+section.bio {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.bio p {
+  height: 30px;
+}
+
+#share {
+  float: right;
+  color: white;
+  text-align: center;
+  height: 40px;
+  width: 160px;
+  background-color: #bc7058;
 }
