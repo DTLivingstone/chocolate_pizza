@@ -8,13 +8,11 @@ body {
 }
 
 #social {
-
   float: right;
 }
 
 header {
   display: flex;
-  /*border-bottom: 5px solid black;*/
 }
 
 article p{
@@ -57,4 +55,23 @@ section.bio p {
   height: 40px;
   width: 160px;
   background-color: #bc7058;
+}
+
+hr.left{
+  float: left;
+  /*margin-top: 30px;*/
+  width: 430px;
+}
+hr.right{
+  float: left;
+  width: 430px;
+
+}
+img.img-footer{
+  display: block;
+  float: left;
+}
+footer p {
+  text-align: center;
+  vertical-align: middle;
 }
