@@ -1,0 +1,17 @@
+body {
+  margin: 5% 12%;
+}
+
+#logo {
+  float: left;
+}
+
+#social {
+
+  float: right;
+}
+
+header{
+  display: flex;
+  /*border-bottom: 5px solid black;*/
+}
